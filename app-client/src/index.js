@@ -28,7 +28,7 @@ class Mycomponent extends React.Component{
   
 
     return (
-      <p> API incorporated </p>
+      <p> Successfully API connected</p>
     );
   }
 }
