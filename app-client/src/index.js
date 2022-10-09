@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 //const axios = require("axios");
 import axios from "axios";
+import { AdditionForm } from './Addition'
 
 const options = {
   method: 'GET',
@@ -37,7 +38,14 @@ class Mycomponent extends React.Component{
 root.render(
   <React.StrictMode>
     <App />
+    <br></br>
+    <br></br>
+    <div className="row">
+                    <AdditionForm/>
+    </div>
+    <div className="row">
     <Mycomponent/>
+    </div>
   </React.StrictMode>
 );
 
