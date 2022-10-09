@@ -21,7 +21,7 @@ export class AdditionForm extends React.Component {
 
         event.preventDefault(); // prevent default behaviour
         //Constructing URL to send to the server.
-        const url = `http://44.203.203.38:3000/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
+        const url = `http://44.203.203.38:3009/add/${this.state.firstNumber}/and/${this.state.secondNumber}`
         fetch(url)
             .then((result) => result.json())
             .then(result => {
